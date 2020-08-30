@@ -1,0 +1,231 @@
+{% extends 'interior/base.html' %}
+{% load static %}
+    
+
+{% block content %}
+    <!-- HEADER START -->
+    {% include './header.html' %}
+        <!-- HEADER END -->
+    <!-- HOME START -->
+    <section id="HOME" class="text-white d-flex align-items-center section bg-home parallax-window" data-parallax="scroll" data-speed="0.2" data-image-src="{% static 'images/img-1.jpg' %}">
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 text-center">
+                    <h1 class="text-uppercase font-weight-bold mb-3">We Provide Best Construction, Infrastructure Concessions and Services group</h1>
+                    <h5 class="font-weight-semi-bold mb-5">with an established and growing international client base.</h5>
+                    <!-- <a href="#SERVICES" class="btn btn-custom mt-4 ml-2 mr-2 page-scroll">Our services</a>
+                    <a href="#CONTACT" class="btn btn-black mt-4 ml-2 mr-2 page-scroll">Contact us</a> -->
+                </div>
+            </div>
+        </div>
+        <a href="#SERVICES" class="scroller page-scroll">
+            <svg viewBox="36.667 0.444 26.667 78.851">
+                <circle cx="50" cy="11.555" r="2.667"/>
+                <path d="M50,0.444c-7.364,0-13.333,5.971-13.333,13.335v22.219c0,7.365,5.97,13.335,13.333,13.335
+                c7.363,0,13.334-5.971,13.334-13.335V13.779C63.334,6.415,57.363,0.444,50,0.444z M61.556,35.998
+                c0,6.373-5.185,11.558-11.556,11.558c-6.372,0-11.556-5.185-11.556-11.558V13.779c0-6.372,5.184-11.557,11.556-11.557
+                c6.371,0,11.556,5.185,11.556,11.557V35.998z"/>
+                <path d="M61.816,53.149L50,64.965L38.184,53.149c-0.348-0.348-0.909-0.348-1.257,0s-0.348,0.909,0,1.257l12.444,12.444
+                c0.173,0.173,0.401,0.261,0.628,0.261s0.455-0.088,0.629-0.261l12.443-12.444c0.348-0.348,0.348-0.909,0-1.257
+                C62.726,52.802,62.164,52.802,61.816,53.149z"/>
+                <path d="M61.816,65.594L50,77.41L38.184,65.594c-0.348-0.348-0.909-0.348-1.257,0s-0.348,0.909,0,1.257l12.444,12.444
+                c0.173,0.174,0.401,0.261,0.628,0.261s0.455-0.087,0.629-0.261l12.443-12.444c0.348-0.348,0.348-0.909,0-1.257
+                C62.726,65.246,62.164,65.246,61.816,65.594z"/>
+            </svg>
+        </a>
+    </section>
+    <!-- HOME END -->
+
+{% include './services.html' %}
+
+<!-- WHO WE ARE START -->
+<section id="COMPANY" class="section bg-white">
+    <div class="container">
+        <div class="row justify-content-center mb-60 text-center">
+            <div class="col-lg-12">
+                <h2 class="text-uppercase text-black font-weight-bold">Who We Are</h2>
+            </div>
+            <div class="col-lg-6 col-sm-10">
+                <p>It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of</p>
+            </div>
+        </div>
+        <div class="row mb-60">
+            <div class="col-lg-6">
+                <div>
+                    <img class="img-fluid d-block ml-auto mr-auto" src="images/img-8.jpg" alt="Who We Are">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="mt-3">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="who mb-30">
+                    <span class="font-weight-bold d-block mb-2">01</span>
+                    <h5 class="text-uppercase text-black font-weight-bold mb-3">Quality</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standa</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="who mb-30">
+                    <span class="font-weight-bold d-block mb-2">02</span>
+                    <h5 class="text-uppercase text-black font-weight-bold mb-3">Integrity</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standa</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="who mb-30">
+                    <span class="font-weight-bold d-block mb-2">03</span>
+                    <h5 class="text-uppercase text-black font-weight-bold mb-3">Innovations</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standa</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="who mb-30">
+                    <span class="font-weight-bold d-block mb-2">04</span>
+                    <h5 class="text-uppercase text-black font-weight-bold mb-3">Safety</h5>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standa</p>
+                </div>
+            </div>
+        </div>
+    </div>        
+</section>
+<!-- WHO WE ARE END -->
+
+{% include './mission.html' %}
+
+<!-- OUR WORK START -->
+{% include './work.html' %}
+<!-- OUR WORK END -->
+
+<!-- WHY PEOPLE CHOOSING STARTING START -->
+{% include './choosing_us.html' %}
+<!-- WHY PEOPLE CHOOSING STARTING END -->
+
+<!-- WHAT CLIENT SAY START -->
+{% include './testmonies.html' %}
+<!-- WHAT CLIENT SAY END -->
+
+<!-- CONTACT US START -->
+{% include './contact.html' %}
+<!-- CONTACT US END -->
+
+<!-- BOOK AN APPOINTMENT START -->
+<section class="position-relative bg-light">
+    <img class="img-fluid img-book-appointment d-none d-xl-block" src="{% static 'images/img-11.png' %} " alt="Book an Appointment">
+    <div id="EMAIL" class="container bg-white section box-shadow container-email">
+        <div class="row justify-content-center mb-60 text-center">
+            <div class="col-lg-12">
+                <h2 class="text-uppercase text-black font-weight-bold">Book an Appointment</h2>
+            </div>
+            <div class="col-lg-6 col-sm-10">
+                <p>It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <form id="contact-form" method="post" action="">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div id="messages" class="messages mb-5"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="form-group">
+                                <div class="position-relative">
+                                    <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Name is required.">
+                                    <label>Name<span class="text-danger">*</span></label>
+                                    <span class="focus-border bg-custom"></span>
+                                </div>
+                                <div class="help-block with-errors text-danger"></div>
+                            </div>
+                            <div class="form-group">
+                                <div class="position-relative">
+                                    <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Valid email is required.">
+                                    <label>Email<span class="text-danger">*</span></label>
+                                    <span class="focus-border bg-custom"></span>
+                                </div>
+                                <div class="help-block with-errors text-danger"></div>
+                            </div>
+                            <div class="form-group">
+                                <div class="position-relative">
+                                    <input id="form_phone" type="tel" name="phone" class="form-control">
+                                    <label>Phone</label>
+                                    <span class="focus-border bg-custom"></span>
+                                </div>
+                                <div class="help-block with-errors text-danger"></div>
+                            </div>
+                            <div class="form-group">
+                                <div class="position-relative">
+                                    <input id="form_subject" type="text" name="subject" class="form-control" required="required" data-error="Subject is required.">
+                                    <label>Subject<span class="text-danger">*</span></label>
+                                    <span class="focus-border bg-custom"></span>
+                                </div>
+                                <div class="help-block with-errors text-danger"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="form-group">
+                                <div class="position-relative">
+                                    <textarea id="form_message" name="message" class="form-control" rows="10" required="required" data-error="Please,leave us a message." style="height: 330px;"></textarea>
+                                    <label>Message<span class="text-danger">*</span></label>
+                                    <span class="focus-border bg-custom"></span>
+                                </div>
+                                <div class="help-block with-errors text-danger"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-lg-12 text-center">
+                            <button type="submit" class="btn btn-send btn-custom">Send message<i class="far fa-paper-plane pl-3"></i></button>
+                            <div id="simple-msg"></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- BOOK AN APPOINTMENT END -->
+
+<!-- FOOTER START -->
+<footer class="section bg-black">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="footer-content">
+                    <ul class="list-unstyled text-center footerlink">
+                        <li class="list-inline-item"><a href="#">Home</a></li>
+                        <li class="list-inline-item"><a href="#">Services</a></li>
+                        <li class="list-inline-item"><a href="#">Features</a></li>
+                        <li class="list-inline-item"><a href="#">Clients</a></li>
+                        <li class="list-inline-item"><a href="#">Team</a></li>
+                        <li class="list-inline-item"><a href="#">Contact Us</a></li>
+                    </ul>
+                    <div class="footer-alt text-center mt-5 mb-5">
+                        <p>2020 © Norwood. Powered by <a class="text-muted" target="_blank" href="http://shiftechafrica.com/">Shiftech Africa</a></p>
+                    </div>
+                    <div class="footer-icon mt-4">                                       
+                        <ul class="list-unstyled social-icon text-center">
+                            <li class="list-inline-item"><a target="_blank" class="bg-facebook" href="https://www.facebook.com/imBullTheme/"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="list-inline-item"><a target="_blank" class="bg-twitter" href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a target="_blank" class="bg-instagram" href="https://www.instagram.com/imbulltheme/"><i class="fab fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a target="_blank" class="bg-linkedin" href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li class="list-inline-item"><a target="_blank" class="bg-youtube" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></li>
+                        </ul>                      
+                    </div>                              
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- FOOTER END -->
+{% endblock content %}
+
+    

@@ -1,0 +1,100 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>NORWOOD | NORWOOD INTERIOR DESIGN CONTRACTORS</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="shiftechafrica" />
+
+    <!-- FAVICON ICON -->
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %} " />
+
+    <!-- BOOTSTRAP CORE CSS -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %} " />
+
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %} " />
+    <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css"' %} >
+
+    <!-- FONT AWESOME ICON -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'css/fontawesome-all.min.css' %} "
+    />
+
+    <!-- CUSTOM CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'css/style.css' %} "
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'css/colors/yellow.css' %} "
+      id="color-opt"
+    />
+  </head>
+  <body>
+    {% block content %}
+    <!-- PRELOADER START -->
+    <div class="pre-loader">
+      <span class="loader-span"></span>
+      <span class="shadow-span"></span>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+      <div class="pre-loader-logo">
+        <a class="navbar-brand" href="javascript:void(0);"
+          ><span class="text-custom">N</span>orwood</a
+        >
+      </div>
+    </div>
+    <!-- PRELOADER END -->
+    <!-- BACK TO TOP START -->
+    <a href="#" class="back-to-top" id="back-to-top"
+      ><i class="fas fa-angle-up"></i
+    ></a>
+    <!-- BACK TO TOP END -->
+
+    {% endblock content %}
+    <!-- JAVASCRIPT -->
+
+    <!-- JQUERY -->
+    <script src="{% static 'js/jquery.min.js' %} "></script>
+
+    <!-- BOOTSTRAP -->
+    <script src="{% static 'js/bootstrap.bundle.min.js' %} "></script>
+
+    <!-- EASING -->
+    <script src="{% static 'js/easing.min.js' %} "></script>
+
+    <!-- SCROLLSPY -->
+    <script src="{% static 'js/scrollspy.min.js' %}"></script>
+
+    <!-- PARALLAX -->
+    <script src="{% static 'js/parallax.min.js' %} "></script>
+
+    <!-- OWL CAROUSEL -->
+    <script src="{% static 'js/owl.carousel.min.js' %} "></script>
+
+    <!-- ISOTOPE -->
+    <script src=" {% static 'js/isotope.min.js' %}"></script>
+
+    <!-- IMAGES LOADED -->
+    <script src="{% static 'js/imagesloaded.min.js' %}"></script>
+
+    <!-- VALIDATOR -->
+    <script src="{% static 'js/validator.js' %} "></script>
+
+    <!-- CUSTOM JS -->
+    <script src="{% static 'js/app.js' %} "></script>
+  </body>
+</html>
